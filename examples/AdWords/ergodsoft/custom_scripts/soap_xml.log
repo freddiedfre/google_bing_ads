@@ -1,0 +1,2993 @@
+[Apr 14 2015 06:15:17.000000 - ERROR] POST /api/adwords/cm/v201406/ReportDefinitionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 341
+Authorization: Bearer ya29.VQH0cUkS0P0KpHFfYm5hMmAcQutB2Y2eeg5T4hWdOnUgOIpJ_0CMoxoTjBJ0SWb203BybdGiDsrh5Q
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201406">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getReportFields>
+      <ns1:reportType>CAMPAIGN_PERFORMANCE_REPORT</ns1:reportType>
+    </ns1:getReportFields>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Tue, 14 Apr 2015 04:15:18 GMT
+Expires: Tue, 14 Apr 2015 04:15:18 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 516
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201406">
+      <requestId>000513a77a6978c10ac479cafd0023be</requestId>
+      <serviceName>ReportDefinitionService</serviceName>
+      <methodName>getReportFields</methodName>
+      <operations>0</operations>
+      <responseTime>249</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[QuotaCheckError.INCOMPLETE_SIGNUP @ ; trigger:'&lt;null&gt;']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201406">
+          <message>[QuotaCheckError.INCOMPLETE_SIGNUP @ ; trigger:'&lt;null&gt;']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="QuotaCheckError">
+            <fieldPath/>
+            <trigger>&lt;null&gt;</trigger>
+            <errorString>QuotaCheckError.INCOMPLETE_SIGNUP</errorString>
+            <ApiError.Type>QuotaCheckError</ApiError.Type>
+            <reason>INCOMPLETE_SIGNUP</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 14 2015 07:35:51.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 400
+Authorization: Bearer ya29.VQGIzPilCKxPh_69H6KLnRWsV8cXt9ykZhCBT9sKjc370gD0QDLXBCqCSAN9DyP3FQstrCPkMa9orQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Name</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+        <ns1:dateRange>
+          <ns1:min>20110613</ns1:min>
+          <ns1:max>20110614</ns1:max>
+        </ns1:dateRange>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Tue, 14 Apr 2015 05:35:52 GMT
+Expires: Tue, 14 Apr 2015 05:35:52 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 517
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513a89a8f66e00ac4a8a80d001eda</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>169</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED @ ; trigger:'&lt;null&gt;']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED @ ; trigger:'&lt;null&gt;']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="QuotaCheckError">
+            <fieldPath/>
+            <trigger>&lt;null&gt;</trigger>
+            <errorString>QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED</errorString>
+            <ApiError.Type>QuotaCheckError</ApiError.Type>
+            <reason>DEVELOPER_TOKEN_NOT_APPROVED</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 14 2015 07:37:14.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 399
+Authorization: Bearer ya29.VQGSLOkzRZ7_I4A72B-GCBcMdu8L_uCGlNlIx9I-YhuwFFR-MORA9jfsHtgPlKaS6-qhbU2Ux1Bd9w
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Name</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+        <ns1:dateRange>
+          <ns1:min>20150413</ns1:min>
+          <ns1:max>20150414</ns1:max>
+        </ns1:dateRange>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Tue, 14 Apr 2015 05:37:15 GMT
+Expires: Tue, 14 Apr 2015 05:37:15 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 520
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513a89f887d090ac46a485b0024d9</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>170</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED @ ; trigger:'&lt;null&gt;']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED @ ; trigger:'&lt;null&gt;']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="QuotaCheckError">
+            <fieldPath/>
+            <trigger>&lt;null&gt;</trigger>
+            <errorString>QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED</errorString>
+            <ApiError.Type>QuotaCheckError</ApiError.Type>
+            <reason>DEVELOPER_TOKEN_NOT_APPROVED</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 14 2015 07:38:39.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 443
+Authorization: Bearer ya29.VQEDWN7kA8z8JEIMEC8xAkeASZBzl0NaA1CmrgBE1vKy48qT2-TSZh1kdPSU3gdX6gEOQZ0-fqHI2A
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+        <ns1:dateRange>
+          <ns1:min>20150413</ns1:min>
+          <ns1:max>20150414</ns1:max>
+        </ns1:dateRange>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Tue, 14 Apr 2015 05:38:40 GMT
+Expires: Tue, 14 Apr 2015 05:38:40 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 519
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513a8a4953a700ac45f296f001232</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>228</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED @ ; trigger:'&lt;null&gt;']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED @ ; trigger:'&lt;null&gt;']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="QuotaCheckError">
+            <fieldPath/>
+            <trigger>&lt;null&gt;</trigger>
+            <errorString>QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED</errorString>
+            <ApiError.Type>QuotaCheckError</ApiError.Type>
+            <reason>DEVELOPER_TOKEN_NOT_APPROVED</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 14 2015 07:39:51.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VQHVZSszICViCDPgyuRLSXFu9LtQzNKa_CSwRy4jOTjoQ0sGeu6KIZKTfmRFAJFuYhEcS5MS2Jks3A
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Tue, 14 Apr 2015 05:39:52 GMT
+Expires: Tue, 14 Apr 2015 05:39:52 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 517
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513a8a8e1dc280ac459a1ba00104b</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>32</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED @ ; trigger:'&lt;null&gt;']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED @ ; trigger:'&lt;null&gt;']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="QuotaCheckError">
+            <fieldPath/>
+            <trigger>&lt;null&gt;</trigger>
+            <errorString>QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED</errorString>
+            <ApiError.Type>QuotaCheckError</ApiError.Type>
+            <reason>DEVELOPER_TOKEN_NOT_APPROVED</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 14 2015 08:17:59.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VQHGgk7BIjufNtSI5eNK7wYophIqphMRGImU8WEmxhDlD_wT7lUSuGOFEk0XjLgmqyN4aVcF918o5Q
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Tue, 14 Apr 2015 06:18:00 GMT
+Expires: Tue, 14 Apr 2015 06:18:00 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 518
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513a931402f200ac47563b6005e03</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>206</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED @ ; trigger:'&lt;null&gt;']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED @ ; trigger:'&lt;null&gt;']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="QuotaCheckError">
+            <fieldPath/>
+            <trigger>&lt;null&gt;</trigger>
+            <errorString>QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED</errorString>
+            <ApiError.Type>QuotaCheckError</ApiError.Type>
+            <reason>DEVELOPER_TOKEN_NOT_APPROVED</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 07:49:12.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgGuXsgZbUe4vpfpAw7mnoEs1RrjvfZ1bX4JxkOz9pxHg9g_zZzWs3sNYRpcL9muCuOafLnBuuTrmQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 05:49:13 GMT
+Expires: Wed, 15 Apr 2015 05:49:13 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 592
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bce8244dd00ac42fa430001cdd</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>181</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 07:50:51.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgEwd-X2dPp6iYhf3QQ9zzFCPK-O_XUDV8T4eV6VtiZWQMhJ-_C6Qcbg4Wjc_cAY4lCcB30pLmCbyQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 05:50:52 GMT
+Expires: Wed, 15 Apr 2015 05:50:52 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 592
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bcee10fb580ac40b48150061c1</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>45</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 07:59:26.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgHNa9lLabW7z0K0GfjqSSq0heAe0Act_xYt-s3gszzddCGYtPGj0b8KnotKtGdI_pfNc4OFSAqtiw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 05:59:26 GMT
+Expires: Wed, 15 Apr 2015 05:59:26 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 592
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bd0cb85d090ac40fca00007105</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>143</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 08:12:45.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgFBa5RYBJ8dmIU3PL1anbleq-pjODhWljK3s6uqjiQXS1GL0Wj-LRsbsy7dxS9hg0OuERC8jVVxXA
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 06:12:45 GMT
+Expires: Wed, 15 Apr 2015 06:12:45 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 595
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bd3c594ba80aecaf418100744d</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>143</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 08:13:56.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgFZlQ_7bsYq7h4Ajth1bEjGMB6H3UJBFW6rFGZIdFwwkm4lJM08Hjh4sMiO9pONwbK6EgDK49onoQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 06:13:57 GMT
+Expires: Wed, 15 Apr 2015 06:13:57 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 595
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bd4097ef580ac491687e003f85</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>148</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 08:14:26.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgGfTcq5kyQTdsYCFMRBwk94qw04gXtLvfFtkDBNWjpcqpqXg5ky0o36auzns3rv2j_vmwIBQzwdWQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 06:14:27 GMT
+Expires: Wed, 15 Apr 2015 06:14:27 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 593
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bd426bc8e00ac4448575005b0a</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>42</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 08:14:44.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgGecEnbJrAg1mmIXU2S9j01pdZmFf8c-Gzz34iO1wB4kO-0wmu9lR-TerJTVe_69y1On9qbMg2X3w
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 06:14:44 GMT
+Expires: Wed, 15 Apr 2015 06:14:44 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 592
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bd4370ec700ac50f827c005f7b</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>41</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 08:16:25.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgGE9tujHTGVNQLJG0KS_DlkI9Hv-gbfAH0PA49b91FNWpw8aP8Wqnh34OxhmKFY7_vJHaBimq2IwQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 06:16:26 GMT
+Expires: Wed, 15 Apr 2015 06:16:26 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 592
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bd498185480ac4a8a80d001eda</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>42</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 08:16:43.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgEgCSaDHG83CzlTBCG145LRB1VOGvNISUCVeuiLxZoNJDX5kkXba24I7qBEzy0Av_Ktcf3fPsprdg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 06:16:44 GMT
+Expires: Wed, 15 Apr 2015 06:16:44 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 593
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bd4a928fb80ac46aaa300006fe</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>130</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 08:25:20.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgHSRTsQSjKSYKwo8An-Bt4zkWXCVZUsQI1fpF9IUe4KTl6yW59HrGxc2D3W0r2oh7M6t7ndFZWrHg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 06:25:20 GMT
+Expires: Wed, 15 Apr 2015 06:25:20 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 593
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bd69558bd00aec56e5f1003302</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>226</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 08:26:14.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgE92a1Z8mcw1vo0i0r_f3h5KVINygJekd68OyivsxCXyJLAS_fVhi2bGEMnAYfXcOoMT-QNgF5pHg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 06:26:14 GMT
+Expires: Wed, 15 Apr 2015 06:26:14 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 594
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bd6c906f680aec9ea25c004222</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>121</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 08:29:10.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgG-7H8-lDG9h_IlJsodYbmHPCPJMJsIolNUSvcek78jVov_OT57e5v9RJfyUcFW8nlvhCGNKIWzsg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 06:29:10 GMT
+Expires: Wed, 15 Apr 2015 06:29:10 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 593
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bd770d38180aec89740e00701b</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>77</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 08:30:00.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgFTMJO6W8GyKHVQFHOVNV51TXNXuVnnDJ3cSAPkaPGQDcPUoHPFGVznoS7le3gk6ElySx1vW2xEjg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 06:30:01 GMT
+Expires: Wed, 15 Apr 2015 06:30:01 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 593
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bd7a11b9d10aec7f2987004cb1</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>41</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 08:56:49.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgFCl1QBs3Z8WOkMjXMJHdG4SUimb0LC_YASnz_dfV8n-U5WJsBT5JNEshfqepulI1FDW7xiuAypag
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 06:56:49 GMT
+Expires: Wed, 15 Apr 2015 06:56:49 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 594
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bdd9f029190ac4448575005b0a</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>269</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 08:57:49.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgEXcNIWi6DWZwN6ChwGlkhI6xO-FjAts6yXjNpLA1ieILFRJA_gYoSzQhdzmUxq1Jorn_mSSAAc-A
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 06:57:50 GMT
+Expires: Wed, 15 Apr 2015 06:57:50 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 592
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bddd8b3db00aecd143e90044a3</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>46</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 09:00:39.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgG1QY2HojEIK38jm8EM7JgYw3p4A4NNwxHF9rap63UAPhPrDRJpT9kIW5hEwbQ1OYhGmY4LNlWNUA
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 07:00:40 GMT
+Expires: Wed, 15 Apr 2015 07:00:40 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 592
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bde7b4dd500ac4ba290400240e</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>44</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 09:00:54.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgEmURB1VkFC-62XJlg8Tbijxu0fHDa3la5bF_OjuuGsopirBhKOjTRyTBpEdMS0iPhoOM-hXvN26g
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 07:00:55 GMT
+Expires: Wed, 15 Apr 2015 07:00:55 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 593
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bde8968ac00ac44f29b0002fad</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>72</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 09:01:01.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgHl-aX5Uw8rMr5MddDNjWKZVyVI8AiAWTtZ9gNnWLIUG8QLcObGAts7lhXGHJN_AyNSQ5BiWFhmKg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 07:01:02 GMT
+Expires: Wed, 15 Apr 2015 07:01:02 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 593
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bde8fb5b590ac498c2ef004a6c</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>64</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 09:06:17.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 407
+Authorization: Bearer ya29.VgFKV91syWKLhdwyMF_WG6aCulq1Nzo3E2ZprlNZM8bZXZ9tWKanehiMcwViyruVVWX3zFQU1hTDpg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 07:06:18 GMT
+Expires: Wed, 15 Apr 2015 07:06:18 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 593
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bdfbd0dff00ac4f1244a00499e</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>224</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 09:06:54.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 400
+Authorization: Bearer ya29.VgHXjxYyJ0cDtpuOewAWuAoeiYn8_kOiI2hd8lbeMX_OK96PpHtBx1A-Qw1XvRfHjWyy5WJhRMM9SQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Criteria</ns1:fields>
+        <ns1:fields>CriteriaType</ns1:fields>
+        <ns1:fields>Impressions</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+        <ns1:fields>Cost</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 07:06:55 GMT
+Expires: Wed, 15 Apr 2015 07:06:55 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 575
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513bdfe0452200ac40088990047c8</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>192</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Criteria', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'CriteriaType', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Impressions', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks', SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Cost']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Criteria</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>CriteriaType</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Impressions</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Cost</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 09:13:53.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 391
+Authorization: Bearer ya29.VgFu36CcRtdPbNHf84fDTI4jLYVCN8xbJb5sYbueh-OdlWM4s10LQuLR-khnD5plv_2gM1yu6xukwQ
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Name</ns1:fields>
+        <ns1:fields>Status</ns1:fields>
+        <ns1:fields>StartDate</ns1:fields>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>AdGroupId</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 07:13:54 GMT
+Expires: Wed, 15 Apr 2015 07:13:54 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 507
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513be1703b4500ac4ba290400240e</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>42</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'AdGroupId']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>AdGroupId</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 09:14:20.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 390
+Authorization: Bearer ya29.VgFyOpBDJJcfAbDwNc5jVnpy5QgXWqvX0btF5izNih-Z3XaszKrCW2miqRsdWbQLQ6CBNFWzYu4dgw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Name</ns1:fields>
+        <ns1:fields>Status</ns1:fields>
+        <ns1:fields>StartDate</ns1:fields>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>Clicks</ns1:fields>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 07:14:21 GMT
+Expires: Wed, 15 Apr 2015 07:14:21 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 506
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+      <requestId>000513be189808200ac47563b6005e03</requestId>
+      <serviceName>CampaignService</serviceName>
+      <methodName>get</methodName>
+      <operations>0</operations>
+      <responseTime>129</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>[SelectorError.INVALID_FIELD_NAME @ serviceSelector; trigger:'Clicks']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SelectorError">
+            <fieldPath>serviceSelector</fieldPath>
+            <trigger>Clicks</trigger>
+            <errorString>SelectorError.INVALID_FIELD_NAME</errorString>
+            <ApiError.Type>SelectorError</ApiError.Type>
+            <reason>INVALID_FIELD_NAME</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 15 2015 09:49:44.000000 - ERROR] POST /api/adwords/cm/v201502/CampaignService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 430
+Authorization: Bearer ya29.VgGi74z8xEVHRDZxUHhEEg6nK6FEGGK1324DedjXw3r_uQdolQDKp1DEEjGByEal5yOQK-ECWNruyA
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201502">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:clientCustomerId>186-486-4569</ns1:clientCustomerId>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:get>
+      <ns1:serviceSelector>
+        <ns1:fields>Id</ns1:fields>
+        <ns1:fields>Name</ns1:fields>
+        <ns1:fields>Status</ns1:fields>
+        <ns1:fields>StartDate</ns1:fields>
+        <ns1:fields>CampaignId</ns1:fields>
+        <ns1:fields>Amount</ns1:fields>
+        <ns1:dateRange>
+          <ns1:min>2015-04-14</ns1:min>
+          <ns1:max>20150-04-15</ns1:max>
+        </ns1:dateRange>
+      </ns1:serviceSelector>
+    </ns1:get>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Wed, 15 Apr 2015 07:49:45 GMT
+Expires: Wed, 15 Apr 2015 07:49:45 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 355
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>DateError.INVALID_STRING_DATE @ </faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201502">
+          <message>DateError.INVALID_STRING_DATE @ </message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="DateError">
+            <fieldPath/>
+            <trigger/>
+            <errorString>DateError.INVALID_STRING_DATE</errorString>
+            <ApiError.Type>DateError</ApiError.Type>
+            <reason>INVALID_STRING_DATE</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+

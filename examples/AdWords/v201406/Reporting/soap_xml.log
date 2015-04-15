@@ -1,0 +1,280 @@
+[Apr 14 2015 05:50:19.000000 - ERROR] POST /api/adwords/cm/v201406/ReportDefinitionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 341
+Authorization: Bearer ya29.VQHrCgmhLVXDUid0LVB2G_EAyaXMq_WmexMdVa0g1Z2t7vpNm25rD5oPoKDar8rLgLxzRfJKycn8Cw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201406">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getReportFields>
+      <ns1:reportType>CAMPAIGN_PERFORMANCE_REPORT</ns1:reportType>
+    </ns1:getReportFields>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Tue, 14 Apr 2015 03:50:20 GMT
+Expires: Tue, 14 Apr 2015 03:50:20 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 517
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201406">
+      <requestId>000513a72129d4a80ac491687e003f85</requestId>
+      <serviceName>ReportDefinitionService</serviceName>
+      <methodName>getReportFields</methodName>
+      <operations>0</operations>
+      <responseTime>186</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[QuotaCheckError.INCOMPLETE_SIGNUP @ ; trigger:'&lt;null&gt;']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201406">
+          <message>[QuotaCheckError.INCOMPLETE_SIGNUP @ ; trigger:'&lt;null&gt;']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="QuotaCheckError">
+            <fieldPath/>
+            <trigger>&lt;null&gt;</trigger>
+            <errorString>QuotaCheckError.INCOMPLETE_SIGNUP</errorString>
+            <ApiError.Type>QuotaCheckError</ApiError.Type>
+            <reason>INCOMPLETE_SIGNUP</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 14 2015 05:50:39.000000 - ERROR] POST /api/adwords/cm/v201406/ReportDefinitionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 341
+Authorization: Bearer ya29.VQHtuBUj5PafqjzunD9_X4NJ8mWVLWYeJPUqYZXggGqe9SisX0TT8JTxbBtwE5MduDG24dehgBFGkg
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201406">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getReportFields>
+      <ns1:reportType>CAMPAIGN_PERFORMANCE_REPORT</ns1:reportType>
+    </ns1:getReportFields>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Tue, 14 Apr 2015 03:50:40 GMT
+Expires: Tue, 14 Apr 2015 03:50:40 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 515
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201406">
+      <requestId>000513a7225a75080ac42fa430001cdd</requestId>
+      <serviceName>ReportDefinitionService</serviceName>
+      <methodName>getReportFields</methodName>
+      <operations>0</operations>
+      <responseTime>186</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[QuotaCheckError.INCOMPLETE_SIGNUP @ ; trigger:'&lt;null&gt;']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201406">
+          <message>[QuotaCheckError.INCOMPLETE_SIGNUP @ ; trigger:'&lt;null&gt;']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="QuotaCheckError">
+            <fieldPath/>
+            <trigger>&lt;null&gt;</trigger>
+            <errorString>QuotaCheckError.INCOMPLETE_SIGNUP</errorString>
+            <ApiError.Type>QuotaCheckError</ApiError.Type>
+            <reason>INCOMPLETE_SIGNUP</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 14 2015 06:01:11.000000 - ERROR] POST /api/adwords/cm/v201406/ReportDefinitionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 341
+Authorization: Bearer ya29.VQF0xhWPJGCWE1qPMPcq1jIYq_99joatP9-rVJQVxr5CjBWByqxDe1xn5VG5EKksMo4WL1LD3bfgaw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201406">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getReportFields>
+      <ns1:reportType>CAMPAIGN_PERFORMANCE_REPORT</ns1:reportType>
+    </ns1:getReportFields>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Tue, 14 Apr 2015 04:01:12 GMT
+Expires: Tue, 14 Apr 2015 04:01:12 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 516
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201406">
+      <requestId>000513a74806d9e10ac428a651006eba</requestId>
+      <serviceName>ReportDefinitionService</serviceName>
+      <methodName>getReportFields</methodName>
+      <operations>0</operations>
+      <responseTime>215</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[QuotaCheckError.INCOMPLETE_SIGNUP @ ; trigger:'&lt;null&gt;']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201406">
+          <message>[QuotaCheckError.INCOMPLETE_SIGNUP @ ; trigger:'&lt;null&gt;']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="QuotaCheckError">
+            <fieldPath/>
+            <trigger>&lt;null&gt;</trigger>
+            <errorString>QuotaCheckError.INCOMPLETE_SIGNUP</errorString>
+            <ApiError.Type>QuotaCheckError</ApiError.Type>
+            <reason>INCOMPLETE_SIGNUP</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+
+[Apr 14 2015 08:17:59.000000 - ERROR] POST /api/adwords/cm/v201406/ReportDefinitionService HTTP/1.1
+Host: adwords.google.com
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/5.5.6, gzip
+Accept-Encoding: gzip, deflate
+Content-Encoding: gzip
+Content-Type: text/xml; charset=utf-8
+SOAPAction: ""
+Content-Length: 341
+Authorization: Bearer ya29.VQHGgk7BIjufNtSI5eNK7wYophIqphMRGImU8WEmxhDlD_wT7lUSuGOFEk0XjLgmqyN4aVcF918o5Q
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://adwords.google.com/api/adwords/cm/v201406">
+  <SOAP-ENV:Header>
+    <ns1:RequestHeader>
+      <ns1:developerToken>01um8htdnZMJGLbGPjlB8Q</ns1:developerToken>
+      <ns1:userAgent>erogedsoft (AwApi-PHP/5.8.2, Common-PHP/5.8.2, PHP/5.5.6)</ns1:userAgent>
+    </ns1:RequestHeader>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <ns1:getReportFields>
+      <ns1:reportType>CAMPAIGN_PERFORMANCE_REPORT</ns1:reportType>
+    </ns1:getReportFields>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=UTF-8
+Content-Encoding: gzip
+Date: Tue, 14 Apr 2015 06:18:00 GMT
+Expires: Tue, 14 Apr 2015 06:18:00 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 515
+Server: GSE
+
+<?xml version="1.0"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Header>
+    <ResponseHeader xmlns="https://adwords.google.com/api/adwords/cm/v201406">
+      <requestId>000513a931400bf80ac4fec3e100728a</requestId>
+      <serviceName>ReportDefinitionService</serviceName>
+      <methodName>getReportFields</methodName>
+      <operations>0</operations>
+      <responseTime>335</responseTime>
+    </ResponseHeader>
+  </soap:Header>
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>[QuotaCheckError.INCOMPLETE_SIGNUP @ ; trigger:'&lt;null&gt;']</faultstring>
+      <detail>
+        <ApiExceptionFault xmlns="https://adwords.google.com/api/adwords/cm/v201406">
+          <message>[QuotaCheckError.INCOMPLETE_SIGNUP @ ; trigger:'&lt;null&gt;']</message>
+          <ApplicationException.Type>ApiException</ApplicationException.Type>
+          <errors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="QuotaCheckError">
+            <fieldPath/>
+            <trigger>&lt;null&gt;</trigger>
+            <errorString>QuotaCheckError.INCOMPLETE_SIGNUP</errorString>
+            <ApiError.Type>QuotaCheckError</ApiError.Type>
+            <reason>INCOMPLETE_SIGNUP</reason>
+          </errors>
+        </ApiExceptionFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
+

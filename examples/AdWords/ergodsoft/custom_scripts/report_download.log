@@ -1,0 +1,164 @@
+[Apr 14 2015 07:02:01.000000 - ERROR] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.VQGRGqSeW80Mg1SQyYUUk094Io5O8CLOBeda0sd1q-MlFWe8WnP4rfUv4GN0x0jaP3SPtlth8x2QXg
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 858
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------70b8f0daac00
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>AdGroupId</fields>
+    <fields>Id</fields>
+    <fields>Criteria</fields>
+    <fields>CriteriaType</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>DELETED</values>
+    </predicates>
+  </selector>
+  <reportName>Criteria performance report #552c9f42724d3</reportName>
+  <reportType>CRITERIA_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>ALL_TIME</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QuotaCheckError.INCOMPLETE_SIGNUP', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 14 2015 07:04:10.000000 - ERROR] POST /api/adwords/reportdownload/v201502 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.VQGl-CP4DXRZHvOdTncUSwhuCai8IvNEeet9PlFVVlvrNR6ZESllNKwQZehskiRH8Xp3hB7MzfGHOw
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 858
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------846e142333c8
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>AdGroupId</fields>
+    <fields>Id</fields>
+    <fields>Criteria</fields>
+    <fields>CriteriaType</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>DELETED</values>
+    </predicates>
+  </selector>
+  <reportName>Criteria performance report #552c9fc4f0645</reportName>
+  <reportType>CRITERIA_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>ALL_TIME</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 14 2015 07:05:40.000000 - ERROR] POST /api/adwords/reportdownload/v201502 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.VQFuGLVt2RP9SNyYiVBxeZ818uJHWRwiwjF8vVbdYWqzAlE7c43R0pyxGQbAJJOgmfF8tlOKO3pokg
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 858
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------1008f9ddc9ba
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>AdGroupId</fields>
+    <fields>Id</fields>
+    <fields>Criteria</fields>
+    <fields>CriteriaType</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>DELETED</values>
+    </predicates>
+  </selector>
+  <reportName>Criteria performance report #552ca01e5851d</reportName>
+  <reportType>CRITERIA_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>ALL_TIME</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 14 2015 07:05:59.000000 - ERROR] POST /api/adwords/reportdownload/v201502 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.VQFLtSyyA4EURqjer5t93SNiOq10D7Ep1_f8cWs5Z8RbQtHOatlZq3wxOSwvS4gs-or96JHUzJDPig
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 858
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------0d8d2d718d01
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>AdGroupId</fields>
+    <fields>Id</fields>
+    <fields>Criteria</fields>
+    <fields>CriteriaType</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>DELETED</values>
+    </predicates>
+  </selector>
+  <reportName>Criteria performance report #552ca031d70e9</reportName>
+  <reportType>CRITERIA_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>ALL_TIME</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED', Trigger = '<null>', FieldPath = ''. 
+
