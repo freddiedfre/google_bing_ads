@@ -89,4 +89,3 @@ try {
 } catch (Exception $e) {
   printf("An error has occurred: %s\n", $e->getMessage());
 }
-

@@ -59,9 +59,9 @@ function GetReportFieldsExample(AdWordsUser $user) {
 }
 
 // Don't run the example if the file is being included.
-// if (__FILE__ != realpath($_SERVER['PHP_SELF'])) {
-  // return;
-// }
+if (__FILE__ != realpath($_SERVER['PHP_SELF'])) {
+  return;
+}
 
 try {
   // Get AdWordsUser from credentials in "../auth.ini"

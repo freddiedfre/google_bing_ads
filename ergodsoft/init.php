@@ -29,13 +29,13 @@
 // Set error reporting levels to highest
 error_reporting(E_STRICT | E_ALL);
 
-$depth = '/../../../';
-define('SRC_PATH', dirname(__FILE__) . $depth . 'src/');
+$depth = '/';
+define('SRC_PATH', dirname(dirname(__FILE__)) . $depth . 'src/');
 define('LIB_PATH', 'Google/Api/Ads/AdWords/Lib');
 define('UTIL_PATH', 'Google/Api/Ads/Common/Util');
 define('ADWORDS_UTIL_PATH', 'Google/Api/Ads/AdWords/Util');
 
-define('ADWORDS_VERSION', 'v201406');
+define('ADWORDS_VERSION', 'v201502');
 
 // Configure include path
 ini_set('include_path', implode(array(
@@ -44,3 +44,4 @@ ini_set('include_path', implode(array(
 
 // Include the AdWordsUser
 require_once LIB_PATH . '/AdWordsUser.php';
+//echo SRC_PATH;

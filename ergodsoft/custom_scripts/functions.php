@@ -76,7 +76,7 @@ function get_from_db($what_to_get, $table_name, $query_by ='', $value='') {
 		$result = mysqli_query($connection, $query);
 		$count = mysqli_num_rows($result);
 		if ($count==0) {
-			//return false;
+			return false;
 			echo "<div class='error' style='padding:2px;'>No Records found </div>";
 		} else {
 			//return array

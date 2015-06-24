@@ -1,0 +1,1591 @@
+[Apr 14 2015 07:02:01.000000 - ERROR] POST /api/adwords/reportdownload/v201402 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.VQGRGqSeW80Mg1SQyYUUk094Io5O8CLOBeda0sd1q-MlFWe8WnP4rfUv4GN0x0jaP3SPtlth8x2QXg
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 858
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------70b8f0daac00
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>AdGroupId</fields>
+    <fields>Id</fields>
+    <fields>Criteria</fields>
+    <fields>CriteriaType</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>DELETED</values>
+    </predicates>
+  </selector>
+  <reportName>Criteria performance report #552c9f42724d3</reportName>
+  <reportType>CRITERIA_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>ALL_TIME</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QuotaCheckError.INCOMPLETE_SIGNUP', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 14 2015 07:04:10.000000 - ERROR] POST /api/adwords/reportdownload/v201502 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.VQGl-CP4DXRZHvOdTncUSwhuCai8IvNEeet9PlFVVlvrNR6ZESllNKwQZehskiRH8Xp3hB7MzfGHOw
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 858
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------846e142333c8
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>AdGroupId</fields>
+    <fields>Id</fields>
+    <fields>Criteria</fields>
+    <fields>CriteriaType</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>DELETED</values>
+    </predicates>
+  </selector>
+  <reportName>Criteria performance report #552c9fc4f0645</reportName>
+  <reportType>CRITERIA_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>ALL_TIME</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 14 2015 07:05:40.000000 - ERROR] POST /api/adwords/reportdownload/v201502 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.VQFuGLVt2RP9SNyYiVBxeZ818uJHWRwiwjF8vVbdYWqzAlE7c43R0pyxGQbAJJOgmfF8tlOKO3pokg
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 858
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------1008f9ddc9ba
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>AdGroupId</fields>
+    <fields>Id</fields>
+    <fields>Criteria</fields>
+    <fields>CriteriaType</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>DELETED</values>
+    </predicates>
+  </selector>
+  <reportName>Criteria performance report #552ca01e5851d</reportName>
+  <reportType>CRITERIA_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>ALL_TIME</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 14 2015 07:05:59.000000 - ERROR] POST /api/adwords/reportdownload/v201502 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.VQFLtSyyA4EURqjer5t93SNiOq10D7Ep1_f8cWs5Z8RbQtHOatlZq3wxOSwvS4gs-or96JHUzJDPig
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 858
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------0d8d2d718d01
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>AdGroupId</fields>
+    <fields>Id</fields>
+    <fields>Criteria</fields>
+    <fields>CriteriaType</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>DELETED</values>
+    </predicates>
+  </selector>
+  <reportName>Criteria performance report #552ca031d70e9</reportName>
+  <reportType>CRITERIA_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>ALL_TIME</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'QuotaCheckError.DEVELOPER_TOKEN_NOT_APPROVED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 19 2015 16:27:08.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.WgFIswTdFfiVplD_IaMCgUoKwiWUVIRjA8CTajq6cgWU6NpxSWeuJ-Z7BJK3WrdBLrOPLw2nZZR_4Q
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 946
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------d1afeb86873d
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>CampaignName</fields>
+    <fields>AdGroupId</fields>
+    <fields>Id</fields>
+    <fields>Criteria</fields>
+    <fields>CriteriaType</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>RelativeCtr</fields>
+    <fields>Ctr</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Criteria performance report #5533bb3599b2a</reportName>
+  <reportType>CRITERIA_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>TODAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = 'RelativeCtr', FieldPath = ''. 
+
+[Apr 19 2015 16:27:46.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.WgGsRNd4S4VkB6CHEzTrbDpzJokOJPL5V2pkAuCv-ml8njdS9su8lfmdTu8CFn7gsQgzMBhYrrtr3g
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 946
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------3921a04f993a
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>CampaignName</fields>
+    <fields>AdGroupId</fields>
+    <fields>Id</fields>
+    <fields>Criteria</fields>
+    <fields>CriteriaType</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>RelativeCtr</fields>
+    <fields>Ctr</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Criteria performance report #5533bb5b52c95</reportName>
+  <reportType>CRITERIA_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>TODAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = 'RelativeCtr', FieldPath = ''. 
+
+[Apr 19 2015 17:48:18.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.WgGXlscDv52_F_M3paeZaFfNUOPcxHHarrZdSF6mmZ26h7NnHg2wWYT62sJaDb8hPAccGNyL-csVbw
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 950
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------2395c7e1d6c0
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>CampaignName</fields>
+    <fields>AdGroupId</fields>
+    <fields>Id</fields>
+    <fields>Criteria</fields>
+    <fields>CriteriaType</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>ConvertedClicks</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Criteria performance report #5533ce3d972ef</reportName>
+  <reportType>CRITERIA_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>TODAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = '', FieldPath = 'ConvertedClicks'. 
+
+[Apr 19 2015 17:49:43.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.WgGMjpDxxpbQDpxwIzIp_h1M4humzdI5XGb-9ymbOyO2OX4WqOWxvroCL6PFKm2E_g8E-VhjeSVUpw
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 994
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------e59a0cbc2b50
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>CampaignName</fields>
+    <fields>AdGroupId</fields>
+    <fields>Id</fields>
+    <fields>Criteria</fields>
+    <fields>CriteriaType</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>ConvertedClicks</fields>
+    <fields>CostPerConvertedClicks</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Criteria performance report #5533ce921d400</reportName>
+  <reportType>CRITERIA_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>TODAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = 'CostPerConvertedClicks', FieldPath = ''. 
+
+[Apr 19 2015 17:52:37.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.WgHtyXZ3zFXycqyucnGo-jndv4BnBLHigwIo5hwmHxoq4JLabA3G5Jm_nzSttb5aKBd4wbKCgoJI4w
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 951
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------517994c8b57b
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>CampaignName</fields>
+    <fields>AdGroupId</fields>
+    <fields>Id</fields>
+    <fields>Criteria</fields>
+    <fields>CriteriaType</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>CTR</fields>
+    <fields>Converted clicks</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Criteria performance report #5533cf40c0669</reportName>
+  <reportType>CRITERIA_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>TODAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = 'CTR', FieldPath = ''. 
+
+[Apr 19 2015 17:53:14.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.WgEZU5FYVGyPg6uRD4Ji0s4NuzBOZYLnelIpooq9sCvc100mq0wWvBUzr4f8eaWydJ-2VSoDilcuQQ
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 926
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------5b89c20f7abd
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>CampaignName</fields>
+    <fields>AdGroupId</fields>
+    <fields>Id</fields>
+    <fields>Criteria</fields>
+    <fields>CriteriaType</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Converted clicks</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Criteria performance report #5533cf64b7c93</reportName>
+  <reportType>CRITERIA_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>TODAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = 'Converted clicks', FieldPath = ''. 
+
+[Apr 19 2015 17:56:18.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.WgGssTXZRgYcFSSK5-7wFl1gmFadSxOeBXrLa9K3Zxap1ruRYS0Z00vGqQfOnuY2SYzG679iiNh7Pw
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 925
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------9aa32c4575e3
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>CampaignName</fields>
+    <fields>AdGroupId</fields>
+    <fields>Id</fields>
+    <fields>Criteria</fields>
+    <fields>CriteriaType</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>convertedClicks</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Criteria performance report #5533d01c6a686</reportName>
+  <reportType>CRITERIA_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>TODAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = 'convertedClicks', FieldPath = ''. 
+
+[Apr 19 2015 17:57:51.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.WgFilqRx0f0uW0m6rfNGNSHZKB5Ud194WJjd0ml29p28uzIxQX8CdQ_-sdSmbCC2KymlZieoDTiH8A
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 925
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------193bfe6e3303
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>CampaignName</fields>
+    <fields>AdGroupId</fields>
+    <fields>Id</fields>
+    <fields>Criteria</fields>
+    <fields>CriteriaType</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>ConvertedClicks</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign performance report #5533d07a87baf</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>TODAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = 'AdGroupId', FieldPath = ''. 
+
+[Apr 19 2015 17:58:45.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.WgFLQySlzh_5665e89P5waYrPKLOhYU6INxTHz05FBw95I_G9CmFyWKs2lm5vAZnsOnrgtbNO1Czfg
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 774
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------247052ebc44e
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>ConvertedClicks</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign performance report #5533d0b0e0790</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>TODAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = '', FieldPath = 'ConvertedClicks'. 
+
+[Apr 19 2015 18:00:52.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.WgFtzCpPKpPQlzUa2KEvYEb-sSNiOcKk3XOfWxsf1R1_yZC0nW9pBFt1hhNQQu2-Q9QoDyDHMVeDpQ
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 799
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------fb1fdda3124a
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>ConvertedClicks</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign performance report #5533d12f4eff8</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>TODAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = '', FieldPath = 'ConvertedClicks'. 
+
+[Apr 19 2015 18:01:31.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.WgE1rLn0uk2E2o6jkoFPzw_nVbLiB-YvU_xrNUnnenFuTGsc0JcOQj8Ii3E7xpR8xcJk5eO6189ADw
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 806
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------9dc393a635d2
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>CostPerConvertedClicks</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign performance report #5533d156f2356</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>TODAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = 'CostPerConvertedClicks', FieldPath = ''. 
+
+[Apr 20 2015 21:53:43.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XAHdBj0uDL-t9HE_jDC8ibyXtqwMpFdrrBQ8aOvMc9dS3UiymeuFYmZUj97mFPS8XdRyTLZIa8Eulw
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 393-117-4112
+Content-Length: 766
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------9a3e04107f7a
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #5535bbb454ed3</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'AuthorizationError.USER_PERMISSION_DENIED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 20 2015 22:02:53.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XAFTS9YfT0wJXSIyzQQsEtBpsVw3o7dF4LVE3jMaIdBvOTj5qTiYvFTzFLFFeKMbAoiIhb6zAhYKtg
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 393-117-4112
+Content-Length: 766
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------dda4508c0408
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #5535bdda306a5</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'AuthorizationError.USER_PERMISSION_DENIED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 21 2015 20:59:11.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XQEfZsCQupKyqJ-APDG0RRDBM7F2Zp0BGX31HmOML6mCRiSisW8hiVSc13hdNldUmQRZXeD-9kVPpw
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 658-059-4736
+Content-Length: 766
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------3a749a4bd618
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #5537006df0f13</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'RequestError.INVALID_INPUT', Trigger = 'You are accessing an AdWords API version v201406 that has been discontinued. Calls to this version may fail. Please visit the AdWords API blog for information on migration to the new AdWords API version.', FieldPath = ''. 
+
+[Apr 21 2015 21:00:05.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XQEIkgu2kB6djvr1chCnYTs-u2yIGZZgxpM8NYcnnkasHJC2rRfXkw2Y34D2-PPaFQ4X4pCBAl6P2A
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 186-486-4569
+Content-Length: 766
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------beb2411467d6
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #553700a05a475</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'RequestError.INVALID_INPUT', Trigger = 'You are accessing an AdWords API version v201406 that has been discontinued. Calls to this version may fail. Please visit the AdWords API blog for information on migration to the new AdWords API version.', FieldPath = ''. 
+
+[Apr 21 2015 21:04:05.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XQHgXEbw3tHJ_VMcXoRukWzJVZ8uYySUKsQPwno34S5eYRXxBQyeSDV4oATN9UigNX2iJn8XiNsOMQ
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 393-117-4112
+Content-Length: 766
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------a69667b6b78a
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #553701921b3f8</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'AuthorizationError.USER_PERMISSION_DENIED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 21 2015 21:08:11.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XQGenUfGGFKhUVWEVkteLaoWSumJ2ok5KJHTumONr-xIh5dKCX3_OHSWjUqk3UL7_inFL9x2db3kYg
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 393-117-4112
+Content-Length: 766
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------45aaaaeefe0b
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #553702891aca7</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'AuthorizationError.USER_PERMISSION_DENIED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 21 2015 21:48:10.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XQFofncsm-LxpziJvDU9CZecgDUopEhdiViZAYzB_t-Mycn46VRB2dH1ArZqPJj2u9Y_poxTwEgQwA
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 840
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------966742003f25
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>ConvertedClicks</fields>
+    <fields>ConversionValue</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #55370be534319</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'RequestError.INVALID_INPUT', Trigger = 'You are accessing an AdWords API version v201406 that has been discontinued. Calls to this version may fail. Please visit the AdWords API blog for information on migration to the new AdWords API version.', FieldPath = ''. 
+
+[Apr 21 2015 21:58:59.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XQHnodjCv8DeCgJwVUUehxVhi8S7WAZ288aY7zV62L8coMaNWeYzmWQUcTNVh71ZPNjXUkzVquoq-w
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 840
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------87d0977c0ea9
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>ConvertedClicks</fields>
+    <fields>ConversionValue</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #55370e6d9cf39</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = '', FieldPath = 'ConvertedClicks'. 
+
+[Apr 21 2015 21:59:45.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XQEJQaw-mVoCYuPKdkqvmvlwmigZ5S7QmCF3KBKHfjM26NjD9heNwkVVE0q5-YrYBNQ0GyGJ8xpZmQ
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 840
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------4c42c96e7357
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>convertedClicks</fields>
+    <fields>ConversionValue</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #55370e9c0197c</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = 'convertedClicks', FieldPath = ''. 
+
+[Apr 21 2015 22:04:33.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XQFeGpLrly351yXzL9VM5Iabz_ia_wAjDYAY-jboSGbhsm2XYFvY7WhpDM2Q4jjQ3fG7tLRyIkdZyw
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 840
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------858195d35765
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>convertedClicks</fields>
+    <fields>ConversionValue</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #55370fbb2e9e6</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = 'convertedClicks', FieldPath = ''. 
+
+[Apr 21 2015 22:05:46.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XQGs8EdhkD3qJkW-BXv3ITwd53aWRtu7xF39fTWb9UFUgPYbkCiY9d3EYmx7PN-mmb37BzTMHYv6hw
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 393-117-4112
+Content-Length: 836
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------2ca3fae86c5f
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>Conversions</fields>
+    <fields>ConversionValue</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #55371007738e2</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'AuthorizationError.USER_PERMISSION_DENIED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 21 2015 22:08:15.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XQEBj-kFgSaLkr8bCqAIDCTjUlhRAtrOQkPpFmU-tQ4cPFNw91nCN-_tgh78zPvyWYZVtV8Y9QQ3fA
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 393-117-4112
+Content-Length: 836
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------6f5bd5227263
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>Conversions</fields>
+    <fields>ConversionValue</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #5537109c5c7ce</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'AuthorizationError.USER_PERMISSION_DENIED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 21 2015 22:18:46.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XQGtnr2he-L3dmKA40RNHjUVgoeegP_yBX7x1mVuU0ywp2jgNe5rYLx4noVXR9q1nCuvNOrjb8z27w
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 840
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------814379ec76d9
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>ConvertedClicks</fields>
+    <fields>ConversionValue</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #55371310c9d98</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = '', FieldPath = 'ConvertedClicks'. 
+
+[Apr 21 2015 22:20:58.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XQHpScY4u_WV3bbP5WRh38NE3vuoHcrIJCFdW1TfAE_PgEXQnj_YY7hVyx5AD5-ecQE6Z2AhQSfRfQ
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 840
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------0cd5a5ef1f81
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>ConvertedClicks</fields>
+    <fields>ConversionValue</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #55371397758c5</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = '', FieldPath = 'ConvertedClicks'. 
+
+[Apr 21 2015 22:21:52.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XQF1o4L_XPc5Xjawp04jHlviw-xs9Jp0L6qdZhmWNGQZsId3jrFYILA803AIrLn8KiMeOYeNmlwxOA
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 393-117-4112
+Content-Length: 836
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------dca7ed95af1d
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>Conversions</fields>
+    <fields>ConversionValue</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #553713cd67a73</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'AuthorizationError.USER_PERMISSION_DENIED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 23 2015 19:35:39.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XwGXPTN449gVV2cPW1uwblnqB_R45L9eb10RAGpKYQUX3gbY28l4YeLWxtqGWZmEkq5Gs0ZfQDGahw
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 665-867-9340
+Content-Length: 836
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------9704fa241541
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>Conversions</fields>
+    <fields>ConversionValue</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #55398fd83ec0f</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'RequestError.INVALID_INPUT', Trigger = 'You are accessing an AdWords API version v201406 that has been discontinued. Calls to this version may fail. Please visit the AdWords API blog for information on migration to the new AdWords API version.', FieldPath = ''. 
+
+[Apr 23 2015 19:36:12.000000 - ERROR] POST /api/adwords/reportdownload/v201406 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XwE5AeawCYaOWZO8CXTpBSOS_Z3LwIawuIlG-JuKeIUFHTqi9Fw8G4b3OSx-8RF6eQt_5l6TshCrLw
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 836
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------f77ffad9ac22
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>Conversions</fields>
+    <fields>ConversionValue</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #55398ff6a3853</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'RequestError.INVALID_INPUT', Trigger = 'You are accessing an AdWords API version v201406 that has been discontinued. Calls to this version may fail. Please visit the AdWords API blog for information on migration to the new AdWords API version.', FieldPath = ''. 
+
+[Apr 23 2015 19:43:23.000000 - ERROR] POST /api/adwords/reportdownload/v201502 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XwEtttHvdiS3nKSb8K6ezT_79uY1alZFjxCCoD1nxXw6F91PgkD5CzJFn-QD7eEZaE4zK3P9eCOEaQ
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 836
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------32890f16dc77
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>Conversions</fields>
+    <fields>ConversionValue</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #553991a564b00</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = '', FieldPath = 'Conversions'. 
+
+[Apr 23 2015 19:45:21.000000 - ERROR] POST /api/adwords/reportdownload/v201502 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XwFwRXyZRKZa4b66LRhP0-JE4W7B3aLc7aOs8Fa0yzbNNbGjtgWhUB3zJfo_y8rfMMLZj3rTZUJ9xA
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 429-492-7124
+Content-Length: 840
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------c7182a835a8a
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>ConvertedClicks</fields>
+    <fields>ConversionValue</fields>
+    <predicates>
+      <field>Status</field>
+      <operator>NOT_IN</operator>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Campaign Performance Report #5539921b8da4e</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'ReportDefinitionError.INVALID_FIELD_NAME_FOR_REPORT', Trigger = '', FieldPath = 'Status'. 
+
+[Apr 23 2015 19:46:47.000000 - ERROR] POST /api/adwords/reportdownload/v201502 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XwFjhP8Nq9IUP0925eVW6LVgWOZq21LZ9ceJxpHXC_K66Ym9CPkSx0jBbgIamTazk_xfkzU5xiW5aA
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 621-528-1802
+Content-Length: 713
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------088e1c1a41b2
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>ConvertedClicks</fields>
+    <fields>ConversionValue</fields>
+  </selector>
+  <reportName>Campaign Performance Report #553992744df12</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'AuthorizationError.USER_PERMISSION_DENIED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 23 2015 19:49:15.000000 - ERROR] POST /api/adwords/reportdownload/v201502 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XwG6euz7-9EyS7RVd6uZ94ZGonPGK5_CuGaaZ39gU5sLKM22KH4jPSj0sNAGd8ACinRDt14JPypmzg
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 621-528-1802
+Content-Length: 713
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------a9acbb4c7f78
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>ConvertedClicks</fields>
+    <fields>ConversionValue</fields>
+  </selector>
+  <reportName>Campaign Performance Report #55399308acc99</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'AuthorizationError.USER_PERMISSION_DENIED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 23 2015 19:59:13.000000 - ERROR] POST /api/adwords/reportdownload/v201502 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XwH4BVtL9KcKuMGOhepm6TXMz52Ewv9WZ1byGLOTwzfLoa78ZqoZF7rcFogO8cT08THsXWsp7LnuOQ
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 621-528-1802
+Content-Length: 713
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------5c417bfd9cc9
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>ConvertedClicks</fields>
+    <fields>ConversionValue</fields>
+  </selector>
+  <reportName>Campaign Performance Report #55399560109b3</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'AuthorizationError.USER_PERMISSION_DENIED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 23 2015 20:06:41.000000 - ERROR] POST /api/adwords/reportdownload/v201502 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XwEqSAB5bx6Fxl7VdqVbckH9CoWpV6XWm-8JjQmQai26mtyOrK0RyB2dzya5aUzy7jvxxCLrxb3fkQ
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 621-528-1802
+Content-Length: 758
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------3b857f3b7060
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>ConvertedClicks</fields>
+    <fields>ConversionValue</fields>
+    <fields>ConversionsManyPerClick</fields>
+  </selector>
+  <reportName>Campaign Performance Report #5539971e4d867</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'AuthorizationError.USER_PERMISSION_DENIED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 24 2015 02:41:05.000000 - ERROR] POST /api/adwords/reportdownload/v201502 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XwHfcieS0luRS7C8-s4PnhjpLlvA1Zw1Ol6nHUb5OsOHN7WtBrr_c6e6018jqHsFiuJ_mvFEd3NqLQ
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 621-528-1802
+Content-Length: 758
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------c89c0be30385
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>ConvertedClicks</fields>
+    <fields>ConversionValue</fields>
+    <fields>ConversionsManyPerClick</fields>
+  </selector>
+  <reportName>Campaign Performance Report #5539f38e4a926</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'AuthorizationError.USER_PERMISSION_DENIED', Trigger = '<null>', FieldPath = ''. 
+
+[Apr 24 2015 02:43:34.000000 - ERROR] POST /api/adwords/reportdownload/v201502 HTTP/1.1
+User-Agent: curl, gzip
+Host: adwords.google.com
+Accept: */*
+Accept-Encoding: gzip
+Authorization: Bearer ya29.XwEXst-2MBdPAWkpsENCCYioHfQzy0PVqST0DfHcAsGp8Oe9FZoH9NLI3DqXfVvVzFn5NPUFtFeSbA
+developerToken: 01um8htdnZMJGLbGPjlB8Q
+clientCustomerId: 621-528-1802
+Content-Length: 758
+Expect: 100-continue
+Content-Type: multipart/form-data; boundary=----------------------------c3de41b8de6a
+
+Parameters:
+__rdxml: <?xml version="1.0"?>
+<reportDefinition>
+  <selector>
+    <fields>CampaignName</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <fields>Ctr</fields>
+    <fields>ConvertedClicks</fields>
+    <fields>ConversionValue</fields>
+    <fields>ConversionsManyPerClick</fields>
+  </selector>
+  <reportName>Campaign Performance Report #5539f42357e23</reportName>
+  <reportType>CAMPAIGN_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>YESTERDAY</dateRangeType>
+  <downloadFormat>XML</downloadFormat>
+  <includeZeroImpressions>false</includeZeroImpressions>
+</reportDefinition>
+
+Response Code: 400
+Error Message: Report download failed. Underlying errors are 
+Type = 'AuthorizationError.USER_PERMISSION_DENIED', Trigger = '<null>', FieldPath = ''. 
+
